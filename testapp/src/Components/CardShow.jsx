@@ -42,7 +42,7 @@ function CardShow() {
                       <Card.Text>
                       Contact : {obj.mob}
                       </Card.Text>
-                      <input type="button" onClick={()=>{EditUser(obj.uid)}} value="Edit User Details"></input>
+                      <input type="button" onClick={()=>{EditUser(obj.uid)}} value="Edit User Details "></input>
                     </Card.Body>
                   </Card>
                 </Col>

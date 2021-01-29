@@ -106,7 +106,7 @@ function Login() {
         <div>
             <center>
             <form method="POST" onSubmit={doSave} encType="multipart/form-data">
-                <label>Uid: </label>
+                <label>Uid BCE: </label>
                 <input type="text" name="uid" value={userObj.uid} onChange={doUpdate}></input> 
                 <input type="button" value="Fetch" onClick={doFetcOne}></input>
                 <br></br> 
@@ -118,6 +118,7 @@ function Login() {
                 <br></br>
                 <br></br>
                 <input type="file" name="ppic" onChange={dofileSave}></input>
+                <br></br>
                 <br></br>
                 <br></br>
                 <input type="submit" value="Save (Sumbit) "></input> 
